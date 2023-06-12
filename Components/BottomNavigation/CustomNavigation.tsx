@@ -30,7 +30,7 @@ const CustomNavigation = ({state, descriptors, navigation}) => {
 
   return (
     <View style={styles.footer}>
-      <Shadow distance={8} startColor="#e5e5e5" offset={[0, 20]}>
+      <Shadow distance={7} startColor="#f1f1f1" offset={[0, 18]}>
         <View style={styles.footerContainer}>
           <View style={styles.curveCont}>
             <View style={styles.curve}>
@@ -196,11 +196,11 @@ const styles = StyleSheet.create({
   curve: {
     // backgroundColor: 'yellow',
     position: 'absolute',
-    top: -5,
-    width: 165,
-    height: 73,
+    top: -8,
+    width: 169,
+    height: 69,
     alignSelf: 'center',
-    paddingLeft: 2,
+    paddingLeft: 0,
   },
 
   // 2nd trial
