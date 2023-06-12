@@ -210,7 +210,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     // borderTopLeftRadius: 30,
     // borderTopRightRadius: 30,
-    justifyContent: 'space-around',
+    justifyContent: 'space-evenly',
   },
   gotoAddPost: {
     width: 55,
@@ -218,7 +218,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     // position: 'absolute',
     // backgroundColor: 'yellow',
-    top: -22,
+    top: -25,
     left: -5,
   },
   addpostButton: {
